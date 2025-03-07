@@ -2,10 +2,5 @@
 void main(){
     int a,b;
     scanf("%d %d");
-    if(a>=b){
-        printf("True");
-    
-    }
-    else{
-    printf("False");}
+    (a>=b)? printf("True"):printf("False");
 }
