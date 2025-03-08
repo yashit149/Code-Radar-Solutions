@@ -7,7 +7,7 @@ void main(){
             printf(" ");
         }
         for(j=1; j<=2*i-1;j++){
-            printf("%d",11^j);
+            printf("%d",11^i);
         }
         printf("\n");
     }
