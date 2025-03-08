@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include<math.h>
 void main(){
-    int a,b;
+    int a,b,c;
     scanf("%d %d",&a,&b);
-    if(a==sq(b)){
+    c=b*b;
+    if(a==c){
         printf("Yes");
     }
     else{
