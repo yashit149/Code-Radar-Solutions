@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+int main(){
     int a,b;
     char c;
     scanf("%d %d %c",&a,&b,&c);
@@ -19,7 +19,7 @@ void main(){
             printf("error");
         }
         else{
-        printf("%d",a/b);
+            printf("%d",a/b);
         }
     }
     else{
