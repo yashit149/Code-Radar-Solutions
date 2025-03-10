@@ -2,7 +2,7 @@
 void main(){
     int i,a,x;
     scanf("%d %d",&i,&a);
-    x=a<<i;
+    x=a>>i;
     if(x%2==0){
         printf("1");
     }
